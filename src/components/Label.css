@@ -1,0 +1,39 @@
+.label-container{
+    display: flex;
+    flex-direction: column;
+    height: 585px;
+    width: 40%;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-right: -1%;
+    flex: 1;
+    background: linear-gradient(90deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(270px);
+    z-index: 3;
+}
+.label-logo{
+    height: 250px;
+    width: 250px;
+    margin-top: 10%;
+}
+.company-name,.label-quoto{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #FAFAFA;
+}
+.label-quoto{
+    font-family: Lato;
+    font-size: 16px;
+}
+@media screen and (max-width:800px){
+    .label-container{
+        display: none;
+    }
+}
